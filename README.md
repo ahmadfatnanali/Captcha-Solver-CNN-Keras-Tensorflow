@@ -9,7 +9,7 @@
 > **Advanced Deep Learning CAPTCHA Recognition System**  
 > Trained on 2000+ labeled images for superior accuracy
 
-![CAPTCHA Solver Demo](images/demo.png)
+![CAPTCHA Solver Demo](images/demo.gif)
 
 ---
 
@@ -49,10 +49,10 @@
 ### Sample CAPTCHAs
 
 <p align="center">
-  <img src="images/sample1.png" width="150" alt="CAPTCHA 1"/>
-  <img src="images/sample2.png" width="150" alt="CAPTCHA 2"/>
-  <img src="images/sample3.png" width="150" alt="CAPTCHA 3"/>
-  <img src="images/sample4.png" width="150" alt="CAPTCHA 4"/>
+  <img src="501431.jpeg" width="150" alt="CAPTCHA: 501431"/>
+  <img src="572143.jpeg" width="150" alt="CAPTCHA: 572143"/>
+  <img src="640741.jpeg" width="150" alt="CAPTCHA: 640741"/>
+  <img src="788806.jpeg" width="150" alt="CAPTCHA: 788806"/>
 </p>
 
 ### API Response Time
@@ -436,9 +436,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Bijaya Kumar Tiadi**
 
 - 📧 Email: [bktiadi1@gmail.com](mailto:bktiadi1@gmail.com)
-- 💼 LinkedIn: [Connect with me](https://linkedin.com/in/bijaya-kumar-tiadi)
+- 💼 LinkedIn: [linkedin.com/in/bijayakumartiadi](https://www.linkedin.com/in/bijayakumartiadi/)
+- 💻 Upwork: [Hire me on Upwork](https://www.upwork.com/freelancers/~01d86f12209c236752)
 - 🐙 GitHub: [@bijayakumartiadi](https://github.com/bijayakumartiadi)
-- 🌐 Portfolio: [bijayatiadi.dev](https://bijayatiadi.dev)
 
 ---
 
