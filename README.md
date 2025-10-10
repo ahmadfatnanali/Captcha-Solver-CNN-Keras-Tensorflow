@@ -1,15 +1,24 @@
+<div align="center">
+
 # 🔓 CAPTCHA Solver - High Accuracy AI Model
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-green.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Accuracy](https://img.shields.io/badge/Accuracy-95%25%2B-success.svg)](/)
+[![Accuracy](https://img.shields.io/badge/Accuracy-95%25%2B-success.svg)](https://github.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow)
+[![GitHub Stars](https://img.shields.io/github/stars/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow?style=social)](https://github.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow)
 
-> **Advanced Deep Learning CAPTCHA Recognition System**  
-> Trained on 2000+ labeled images for superior accuracy
+### 🚀 Advanced Deep Learning CAPTCHA Recognition System
+**Trained on 2000+ labeled images for superior accuracy**
 
-![CAPTCHA Solver Demo](images/demo.gif)
+---
+
+### 📺 Live Demo
+
+<img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/demo.gif" alt="CAPTCHA Solver Demo" width="800"/>
+
+</div>
 
 ---
 
@@ -46,14 +55,18 @@
 
 ## 🎬 Demo
 
-### Sample CAPTCHAs
+### 🎯 Sample CAPTCHAs & Results
 
-<p align="center">
-  <img src="501431.jpeg" width="150" alt="CAPTCHA: 501431"/>
-  <img src="572143.jpeg" width="150" alt="CAPTCHA: 572143"/>
-  <img src="640741.jpeg" width="150" alt="CAPTCHA: 640741"/>
-  <img src="788806.jpeg" width="150" alt="CAPTCHA: 788806"/>
-</p>
+<div align="center">
+
+| Input CAPTCHA | Prediction | Confidence |
+|:------------:|:----------:|:----------:|
+| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/501431.jpeg" width="120"/> | **501431** | 99.2% |
+| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/572143.jpeg" width="120"/> | **572143** | 98.7% |
+| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/640741.jpeg" width="120"/> | **640741** | 97.5% |
+| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/788806.jpeg" width="120"/> | **788806** | 99.8% |
+
+</div>
 
 ### API Response Time
 
@@ -79,8 +92,8 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/captcha-solver-cnn.git
-cd captcha-solver-cnn
+git clone https://github.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow.git
+cd Captcha-Solver-CNN-Keras-Tensorflow
 ```
 
 ### Create Virtual Environment
@@ -433,12 +446,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Bijaya Kumar Tiadi**
+<div align="center">
 
-- 📧 Email: [bktiadi1@gmail.com](mailto:bktiadi1@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/bijayakumartiadi](https://www.linkedin.com/in/bijayakumartiadi/)
-- 💻 Upwork: [Hire me on Upwork](https://www.upwork.com/freelancers/~01d86f12209c236752)
-- 🐙 GitHub: [@bijayakumartiadi](https://github.com/bijayakumartiadi)
+### 👨‍💻 Developed by **Bijaya Kumar Tiadi**
+
+[![Email](https://img.shields.io/badge/Email-bktiadi1%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:bktiadi1@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bijayakumartiadi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bijayakumartiadi/)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire%20Me-green?style=for-the-badge&logo=upwork)](https://www.upwork.com/freelancers/~01d86f12209c236752)
+[![GitHub](https://img.shields.io/badge/GitHub-BijayaKumarTiadi-black?style=for-the-badge&logo=github)](https://github.com/BijayaKumarTiadi)
+
+</div>
 
 ---
 
@@ -464,7 +481,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Known Issues
 
-See [Issues](https://github.com/yourusername/captcha-solver-cnn/issues) page for current known issues and feature requests.
+See [Issues](https://github.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/issues) page for current known issues and feature requests.
 
 ---
 
@@ -473,15 +490,27 @@ See [Issues](https://github.com/yourusername/captcha-solver-cnn/issues) page for
 If you have any questions or need help:
 
 - 📧 Email: bktiadi1@gmail.com
-- 💬 Open an [Issue](https://github.com/yourusername/captcha-solver-cnn/issues)
-- 📖 Check the [Documentation](docs/)
+- 💬 Open an [Issue](https://github.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/issues)
+- 📖 Check the [Documentation](https://github.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow)
 
 ---
 
-<p align="center">
-  Made with ❤️ by Bijaya Kumar Tiadi
-</p>
+---
 
-<p align="center">
-  <sub>⭐ Star this repo if you find it useful!</sub>
-</p>
+<div align="center">
+
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow&type=Date)](https://star-history.com/#BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow&Date)
+
+---
+
+### Made with ❤️ by [Bijaya Kumar Tiadi](https://github.com/BijayaKumarTiadi)
+
+<sub>⭐ **Star this repo** if you find it useful! | 🔔 **Watch** for updates | 🍴 **Fork** to contribute</sub>
+
+---
+
+**© 2025 Bijaya Kumar Tiadi. Licensed under MIT.**
+
+</div>
