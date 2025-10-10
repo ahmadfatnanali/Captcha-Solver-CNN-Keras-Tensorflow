@@ -16,7 +16,7 @@
 
 ### 📺 Live Demo
 
-<img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/demo.gif" alt="CAPTCHA Solver Demo" width="800"/>
+![CAPTCHA Solver Demo](images/demo.gif)
 
 </div>
 
@@ -61,10 +61,10 @@
 
 | Input CAPTCHA | Prediction | Confidence |
 |:------------:|:----------:|:----------:|
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/501431.jpeg" width="120"/> | **501431** | 99.2% |
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/572143.jpeg" width="120"/> | **572143** | 98.7% |
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/640741.jpeg" width="120"/> | **640741** | 97.5% |
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/788806.jpeg" width="120"/> | **788806** | 99.8% |
+| ![501431](images/501431.jpeg) | **501431** | 99.2% |
+| ![572143](images/572143.jpeg) | **572143** | 98.7% |
+| ![640741](images/640741.jpeg) | **640741** | 97.5% |
+| ![788806](images/788806.jpeg) | **788806** | 99.8% |
 
 </div>
 
