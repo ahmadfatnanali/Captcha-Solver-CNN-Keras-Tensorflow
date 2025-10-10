@@ -55,16 +55,18 @@
 
 ## 🎬 Demo
 
+![Demo GIF](images/demo.gif)
+
 ### 🎯 Sample CAPTCHAs & Results
 
 <div align="center">
 
 | Input CAPTCHA | Prediction | Confidence |
 |:------------:|:----------:|:----------:|
-| ![501431](images/501431.jpeg) | **501431** | 99.2% |
-| ![572143](images/572143.jpeg) | **572143** | 98.7% |
-| ![640741](images/640741.jpeg) | **640741** | 97.5% |
-| ![788806](images/788806.jpeg) | **788806** | 99.8% |
+| ![Sample 1](images/sample1.jpeg) | **501431** | 99.2% |
+| ![Sample 2](images/sample1.jpeg) | **572143** | 98.7% |
+| ![Sample 3](images/sample1.jpeg) | **788806** | 97.5% |
+| ![Sample 4](images/sample1.jpeg) | **640741** | 99.8% |
 
 </div>
 
