@@ -16,7 +16,7 @@
 
 ### 📺 Live Demo
 
-![CAPTCHA Solver Demo](images/demo.gif)
+![CAPTCHA Solver Demo](images/Demo.gif)
 
 </div>
 
