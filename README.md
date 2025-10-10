@@ -61,17 +61,10 @@
 
 | Input CAPTCHA | Prediction | Confidence |
 |:------------:|:----------:|:----------:|
-<<<<<<< HEAD
 | ![501431](images/501431.jpeg) | **501431** | 99.2% |
 | ![572143](images/572143.jpeg) | **572143** | 98.7% |
 | ![640741](images/640741.jpeg) | **640741** | 97.5% |
 | ![788806](images/788806.jpeg) | **788806** | 99.8% |
-=======
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/sample1.jpeg" width="120"/> | **501431** | 99.2% |
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/572143.jpeg" width="120"/> | **572143** | 98.7% |
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/640741.jpeg" width="120"/> | **640741** | 97.5% |
-| <img src="https://raw.githubusercontent.com/BijayaKumarTiadi/Captcha-Solver-CNN-Keras-Tensorflow/main/images/788806.jpeg" width="120"/> | **788806** | 99.8% |
->>>>>>> ff3cce1244f2df496c8bcb5ce739745fb642d6cc
 
 </div>
 
