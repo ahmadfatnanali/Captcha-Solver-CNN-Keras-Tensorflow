@@ -1,0 +1,145 @@
+use std::collections::HashMap;
+use std::io;
+
+struct Penduduk {
+    nama: String,
+    umur: i32,
+    alamat: String,
+}
+
+impl Penduduk {
+    fn new(nama: String, umur: i32, alamat: String) -> Penduduk {
+        Penduduk { nama, umur, alamat }
+    }
+}
+
+fn main() {
+    let mut data_penduduk: HashMap<String, Penduduk> = HashMap::new();
+
+    loop {
+        println!("Menu:");
+        println!("1. Tambah data penduduk");
+        println!("2. Lihat data penduduk");
+        println!("3. Edit data penduduk");
+        println!("4. Hapus data penduduk");
+        println!("5. Keluar");
+
+        let mut choice = String::new();
+        io::stdin()
+            .read_line(&mut choice)
+            .expect("Gagal membaca baris");
+
+        let choice: u32 = match choice.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("Masukkan nomor yang valid");
+                continue;
+            }
+        };
+
+        match choice {
+            1 => tambah_data_penduduk(&mut data_penduduk),
+            2 => lihat_data_penduduk(&data_penduduk),
+            3 => edit_data_penduduk(&mut data_penduduk),
+            4 => hapus_data_penduduk(&mut data_penduduk),
+            5 => {
+                println!("Keluar dari program.");
+                break;
+            }
+            _ => println!("Pilihan tidak valid"),
+        }
+    }
+}
+
+fn tambah_data_penduduk(data_penduduk: &mut HashMap<String, Penduduk>) {
+    println!("Masukkan nama:");
+    let mut nama = String::new();
+    io::stdin()
+        .read_line(&mut nama)
+        .expect("Gagal membaca baris");
+
+    println!("Masukkan umur:");
+    let mut umur = String::new();
+    io::stdin()
+        .read_line(&mut umur)
+        .expect("Gagal membaca baris");
+
+    let umur: i32 = match umur.trim().parse() {
+        Ok(num) => num,
+        Err(_) => {
+            println!("Masukkan umur yang valid");
+            return;
+        }
+    };
+
+    println!("Masukkan alamat:");
+    let mut alamat = String::new();
+    io::stdin()
+        .read_line(&mut alamat)
+        .expect("Gagal membaca baris");
+
+    let penduduk = Penduduk::new(nama.trim().to_string(), umur, alamat.trim().to_string());
+    data_penduduk.insert(penduduk.nama.clone(), penduduk);
+    println!("Data penduduk berhasil ditambahkan!");
+}
+
+fn lihat_data_penduduk(data_penduduk: &HashMap<String, Penduduk>) {
+    if data_penduduk.is_empty() {
+        println!("Data penduduk kosong");
+    } else {
+        println!("Data Penduduk:");
+        for (nama, penduduk) in data_penduduk {
+            println!("Nama: {}, Umur: {}, Alamat: {}", nama, penduduk.umur, penduduk.alamat);
+        }
+    }
+}
+
+fn edit_data_penduduk(data_penduduk: &mut HashMap<String, Penduduk>) {
+    println!("Masukkan nama penduduk yang ingin diedit:");
+    let mut nama = String::new();
+    io::stdin()
+        .read_line(&mut nama)
+        .expect("Gagal membaca baris");
+
+    if let Some(penduduk) = data_penduduk.get_mut(&nama.trim().to_string()) {
+        println!("Masukkan umur baru:");
+        let mut umur = String::new();
+        io::stdin()
+            .read_line(&mut umur)
+            .expect("Gagal membaca baris");
+
+        let umur: i32 = match umur.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("Masukkan umur yang valid");
+                return;
+            }
+        };
+
+        println!("Masukkan alamat baru:");
+        let mut alamat = String::new();
+        io::stdin()
+            .read_line(&mut alamat)
+            .expect("Gagal membaca baris");
+
+        penduduk.umur = umur;
+        penduduk.alamat = alamat.trim().to_string();
+        println!("Data penduduk berhasil diubah!");
+    } else {
+        println!("Penduduk dengan nama tersebut tidak ditemukan.");
+    }
+}
+
+fn hapus_data_penduduk(data_penduduk: &mut HashMap<String, Penduduk>) {
+    println!("Masukkan nama penduduk yang ingin dihapus:");
+    let mut nama = String::new();
+    io::stdin()
+        .read_line(&mut nama)
+        .expect("Gagal membaca baris");
+
+    if let Some(_) = data_penduduk.remove(&nama.trim().to_string()) {
+        println!("Data penduduk berhasil dihapus!");
+    } else {
+        println!("Penduduk dengan nama tersebut tidak ditemukan.");
+    }
+}
